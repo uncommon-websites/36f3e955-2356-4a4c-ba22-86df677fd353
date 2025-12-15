@@ -6,7 +6,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-20">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-4xl">
-                Just as Bloomberg digitized financial data in the 1980s, <span class="font-semibold">Rogo is now transforming financial workflows.</span>
+                Institutional investing was once reserved for the ultra-wealthy. <span class="font-semibold">Fulfilled brings that same sophistication to everyone.</span>
             </h2>
         </div>
 
@@ -46,15 +46,15 @@
             <!-- Right: Features List -->
             <div class="space-y-12">
                 <h3 class="text-2xl font-serif text-gray-900">
-                    An Integrated, Secure Platform <br/> Built to Drive Your Firm Forward
+                    A Personalized Approach <br/> Built Around Your Goals
                 </h3>
 
                 <div class="space-y-8">
                     {#each [
-                        { id: '01', title: 'All your content in one place', icon: Database },
-                        { id: '02', title: 'Transparent, auditable sources', icon: Search },
-                        { id: '03', title: 'Automate your workflows', icon: Settings },
-                        { id: '04', title: 'Proprietary document interrogation', icon: FileText }
+                        { id: '01', title: 'Goal-based portfolio design', icon: Database },
+                        { id: '02', title: 'Institutional-grade allocation', icon: Search },
+                        { id: '03', title: 'Keep your existing accounts', icon: Settings },
+                        { id: '04', title: 'Ongoing guidance & rebalancing', icon: FileText }
                     ] as feature}
                         <div class="flex items-start gap-4 group cursor-pointer">
                             <div class="flex-shrink-0 relative">

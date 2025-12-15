@@ -6,44 +6,49 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                AI That Learns How Your<br />Firm Thinks and Works
+                Everything You Need to<br />Achieve Your Goals
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Integrations -->
+            <!-- Goal-Based Planning -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Integrations</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Goal-Based Planning</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="grid grid-cols-3 gap-4">
-                        {#each [1, 2, 3, 4, 5, 6] as i}
-                            <div class="h-10 w-10 bg-white rounded-full shadow-sm flex items-center justify-center text-gray-400">
-                                <div class="h-4 w-4 bg-gray-200 rounded-sm"></div>
+                    <div class="space-y-3 w-full max-w-[200px]">
+                        {#each [{icon: "🏠", color: "bg-primary-500"}, {icon: "🎓", color: "bg-blue-500"}, {icon: "🏖️", color: "bg-purple-500"}] as goal}
+                            <div class="flex items-center gap-3 bg-white p-3 rounded shadow-sm">
+                                <div class="h-8 w-8 {goal.color} rounded-full flex items-center justify-center text-sm">
+                                    {goal.icon}
+                                </div>
+                                <div class="flex-1">
+                                    <div class="h-1.5 bg-gray-100 rounded w-3/4 mb-1"></div>
+                                    <div class="h-1 bg-gray-50 rounded w-1/2"></div>
+                                </div>
                             </div>
                         {/each}
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.
+                    Create separate portfolios for each of your financial goals with custom timelines, risk profiles, and investment strategies tailored to what matters most.
                 </p>
             </div>
 
-            <!-- Prompt Library -->
+            <!-- 50+ Asset Classes -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Prompt Library</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">50+ Asset Classes</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px] space-y-2">
-                        <div class="h-2 bg-gray-100 rounded w-1/3 mb-4"></div>
-                        {#each [1, 2, 3, 4, 5] as i}
+                        <div class="text-[10px] font-medium text-gray-500 mb-3">DIVERSIFIED ALLOCATION</div>
+                        {#each [{name: "US Stocks", width: "w-full", color: "bg-blue-500"}, {name: "Int'l Stocks", width: "w-4/5", color: "bg-green-500"}, {name: "Bonds", width: "w-3/5", color: "bg-purple-500"}, {name: "Real Estate", width: "w-2/5", color: "bg-orange-500"}, {name: "Commodities", width: "w-1/4", color: "bg-yellow-500"}] as asset}
                             <div class="flex items-center gap-2">
-                                <div class="h-2 w-2 rounded-full bg-gray-200"></div>
-                                <div class="h-1.5 bg-gray-100 rounded w-3/4"></div>
+                                <div class="h-1.5 {asset.color} rounded {asset.width}"></div>
                             </div>
                         {/each}
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.
+                    Access institutional-grade diversification across global equities, fixed income, real estate, commodities, and alternative investments—all optimized for your goals.
                 </p>
             </div>
 
