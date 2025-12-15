@@ -28,7 +28,7 @@
   <div class="relative w-full max-w-7xl mx-auto px-4">
     <div class="relative aspect-[21/9] w-full overflow-hidden rounded-lg shadow-2xl">
       <img 
-        src="https://images.unsplash.com/photo-1554224311-beee460c201f?q=80&w=2070&auto=format&fit=crop" 
+        src="/generated/image-professional-millennial-woman-working-on-1765820781925-0.webp" 
         alt="Professional planning finances" 
         class="h-full w-full object-cover"
       />

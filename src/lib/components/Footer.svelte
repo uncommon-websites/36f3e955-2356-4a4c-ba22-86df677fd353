@@ -9,18 +9,17 @@
             <div class="max-w-xl">
                 <div class="mb-8">
                     <!-- Logo mark -->
-                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 4H10V10H4V4Z" stroke="black" stroke-width="2"/>
-                        <path d="M14 14H20V20H14V14Z" stroke="black" stroke-width="2"/>
+                    <svg width="32" height="32" viewBox="0 0 67 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.625 24.7527V41.621L42.246 0H25.3777L0.625 24.7527ZM9.25909 0H0.625V8.6341L9.25909 0ZM0.625 66V57.7396L58.3646 0H66.625V8.60796L9.23297 66H0.625ZM25.3516 66H42.22L66.625 41.595V24.7266L25.3516 66ZM58.3386 66L66.625 57.7136V66H58.3386Z" fill="black"/>
                     </svg>
                 </div>
                 <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                    Unlock Financial AI<br />For Your Firm
+                    Start Achieving<br />Your Financial Goals
                 </h2>
             </div>
             <div>
-                <a href="#demo" class="rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-colors inline-block">
-                    Request Demo
+                <a href="#get-started" class="rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-colors inline-block">
+                    Get Started
                 </a>
             </div>
         </div>
@@ -28,11 +27,12 @@
         <!-- Links Grid -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-24 border-t border-gray-100 pt-16">
             <div>
-                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Overview</h4>
+                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Product</h4>
                 <ul class="space-y-4">
-                    <li><a href="#product" class="text-xs text-gray-600 hover:text-gray-900">Product</a></li>
                     <li><a href="#features" class="text-xs text-gray-600 hover:text-gray-900">Features</a></li>
+                    <li><a href="#how-it-works" class="text-xs text-gray-600 hover:text-gray-900">How It Works</a></li>
                     <li><a href="#security" class="text-xs text-gray-600 hover:text-gray-900">Security</a></li>
+                    <li><a href="#pricing" class="text-xs text-gray-600 hover:text-gray-900">Pricing</a></li>
                 </ul>
             </div>
             <div>
@@ -40,22 +40,23 @@
                 <ul class="space-y-4">
                     <li><a href="#about" class="text-xs text-gray-600 hover:text-gray-900">About</a></li>
                     <li><a href="#careers" class="text-xs text-gray-600 hover:text-gray-900">Careers</a></li>
+                    <li><a href="#blog" class="text-xs text-gray-600 hover:text-gray-900">Blog</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Legal</h4>
                 <ul class="space-y-4">
-                    <li><a href="#terms" class="text-xs text-gray-600 hover:text-gray-900">Terms of Use</a></li>
+                    <li><a href="#terms" class="text-xs text-gray-600 hover:text-gray-900">Terms of Service</a></li>
                     <li><a href="#privacy" class="text-xs text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
+                    <li><a href="#disclosures" class="text-xs text-gray-600 hover:text-gray-900">Disclosures</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Contact</h4>
+                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Support</h4>
                 <ul class="space-y-4">
-                    <li><a href="#demo" class="text-xs text-gray-600 hover:text-gray-900">Request Demo</a></li>
-                    <li><a href="#sales" class="text-xs text-gray-600 hover:text-gray-900">Sales</a></li>
+                    <li><a href="#help" class="text-xs text-gray-600 hover:text-gray-900">Help Center</a></li>
+                    <li><a href="#contact" class="text-xs text-gray-600 hover:text-gray-900">Contact Us</a></li>
                     <li><a href="#linkedin" class="text-xs text-gray-600 hover:text-gray-900">LinkedIn</a></li>
-                    <li><a href="#press" class="text-xs text-gray-600 hover:text-gray-900">Press</a></li>
                 </ul>
             </div>
         </div>
@@ -63,7 +64,7 @@
         <!-- Copyright -->
         <div class="text-center border-t border-gray-100 pt-8">
             <p class="text-[10px] font-mono uppercase tracking-widest text-gray-400">
-                © {currentYear} Rogo AI
+                © {currentYear} Fulfilled
             </p>
         </div>
     </div>

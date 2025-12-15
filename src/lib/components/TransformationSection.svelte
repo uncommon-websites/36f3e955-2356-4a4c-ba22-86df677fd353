@@ -15,28 +15,29 @@
             <div class="relative">
                 <div class="relative rounded-lg overflow-hidden shadow-2xl bg-gray-900 aspect-[4/3]">
                     <img 
-                        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop" 
-                        alt="City buildings" 
-                        class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
+                        src="/generated/image-diverse-group-of-professionals-collabora-1765820788075-2.webp" 
+                        alt="Professionals planning finances together" 
+                        class="absolute inset-0 w-full h-full object-cover opacity-50"
                     />
                     
                     <!-- Floating Interface Element -->
                     <div class="absolute inset-0 flex items-center justify-center p-8">
                         <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6">
                             <div class="flex items-center gap-3 mb-4">
-                                <div class="h-8 w-8 bg-blue-600 rounded flex items-center justify-center text-white">
+                                <div class="h-8 w-8 bg-primary-600 rounded flex items-center justify-center text-white">
                                     <Database size={16} />
                                 </div>
-                                <span class="font-medium text-gray-900">Market data</span>
+                                <span class="font-medium text-gray-900">Your Financial Goals</span>
                             </div>
-                            <div class="space-y-2">
-                                <div class="h-2 bg-gray-100 rounded w-3/4"></div>
-                                <div class="h-2 bg-gray-100 rounded w-1/2"></div>
-                            </div>
-                            
-                            <!-- Arrow indicator -->
-                            <div class="absolute left-4 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <div class="h-2 bg-primary-100 rounded w-2/3"></div>
+                                    <span class="text-xs text-gray-500">$150K</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <div class="h-2 bg-blue-100 rounded w-1/2"></div>
+                                    <span class="text-xs text-gray-500">$200K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
