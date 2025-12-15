@@ -52,18 +52,25 @@
                 </p>
             </div>
 
-            <!-- Guided Implementation -->
+            <!-- Expert Guidance -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Guided Implementation</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Expert Guidance</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="flex -space-x-2">
-                        <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">A</div>
-                        <div class="h-10 w-10 rounded-full bg-green-100 border-2 border-white flex items-center justify-center text-green-600 text-xs">B</div>
-                        <div class="h-10 w-10 rounded-full bg-purple-100 border-2 border-white flex items-center justify-center text-purple-600 text-xs">C</div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm w-full max-w-[180px]">
+                        <div class="flex items-center gap-2 mb-3">
+                            <div class="h-10 w-10 rounded-full bg-primary-100 border-2 border-primary-500 flex items-center justify-center text-primary-700 text-xs font-bold">CF</div>
+                            <div class="flex-1">
+                                <div class="h-1.5 bg-gray-100 rounded w-full mb-1"></div>
+                                <div class="h-1 bg-gray-50 rounded w-2/3"></div>
+                            </div>
+                        </div>
+                        <div class="text-[8px] text-gray-400 leading-relaxed">
+                            "Based on your timeline, I recommend increasing your equity allocation..."
+                        </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    White-glove engagement and implementation with our team of ex-bankers and private equity investors.
+                    Get personalized advice from financial experts who understand your goals. We're here to answer questions and guide you every step of the way.
                 </p>
             </div>
 
